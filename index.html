@@ -383,16 +383,77 @@ if(sessionStorage.getItem('auth')==='1'){
       <span data-lang="ja">各フロアでお客様がキャンペーン商品コーナーをご覧になっている場合は、<strong>積極的に声をかけて</strong>キャンペーン内容をご案内すること。また、お客様が特典商品を受け取り忘れないよう常に注意すること。</span>
       <span data-lang="ko">각 층에서 고객이 이벤트 상품 코너를 보고 있을 경우 <strong>적극적으로 다가가</strong> 이벤트 내용을 안내할 것. 또한 고객이 증정품을 빠뜨리지 않도록 항상 주의할 것.</span>
     </div>
+<!-- iwafu 優惠券 -->
+    <div style="background:var(--card-bg);border:2px solid var(--teal);border-left:6px solid var(--teal);padding:20px;margin-bottom:20px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+        <span style="background:var(--teal);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;letter-spacing:1px">🎟️ 最優先</span>
+        <h3 style="margin:0;font-size:16px">
+          <span data-lang="zh-tw">🎟️ iwafu 優惠券 — 滿 ¥2,000 折 ¥300</span>
+          <span data-lang="zh-cn">🎟️ iwafu 优惠券 — 满 ¥2,000 折 ¥300</span>
+          <span data-lang="ja">🎟️ iwafu クーポン — ¥2,000以上で ¥300割引</span>
+          <span data-lang="ko">🎟️ iwafu 쿠폰 — ¥2,000 이상 구매 시 ¥300 할인</span>
+        </h3>
+      </div>
+
+      <div class="table-wrap" style="margin-bottom:12px">
+        <table>
+          <tbody>
+            <tr>
+              <th data-lang="zh-tw" style="width:80px">活動內容</th>
+              <th data-lang="zh-cn" style="width:80px">活动内容</th>
+              <th data-lang="ja" style="width:80px">内容</th>
+              <th data-lang="ko" style="width:80px">내용</th>
+              <td data-lang="zh-tw">出示 iwafu 優惠券，單次消費<strong>滿 ¥2,000</strong> 即享 <strong>¥300 折扣</strong></td>
+              <td data-lang="zh-cn">出示 iwafu 优惠券，单次消费<strong>满 ¥2,000</strong> 即享 <strong>¥300 折扣</strong></td>
+              <td data-lang="ja">iwafu クーポン提示で、¥2,000以上のお買い上げで<strong>¥300割引</strong></td>
+              <td data-lang="ko">iwafu 쿠폰 제시 시, ¥2,000 이상 구매 시 <strong>¥300 할인</strong></td>
+            </tr>
+            <tr>
+              <th data-lang="zh-tw">收銀操作</th>
+              <th data-lang="zh-cn">收银操作</th>
+              <th data-lang="ja">レジ操作</th>
+              <th data-lang="ko">계산 조작</th>
+              <td data-lang="zh-tw">使用<strong>整體折扣</strong>操作 ¥300 折扣。不確定操作方式者，<strong>務必先至「收銀與結帳」頁面確認</strong></td>
+              <td data-lang="zh-cn">使用<strong>整体折扣</strong>操作 ¥300 折扣。不确定操作方式者，<strong>务必先至「收银与结账」页面确认</strong></td>
+              <td data-lang="ja"><strong>全体割引</strong>で ¥300 割引を適用。操作に不安がある場合は<strong>必ず「レジ・会計業務」ページで確認してから対応すること</strong></td>
+              <td data-lang="ko"><strong>전체 할인</strong>으로 ¥300 할인 적용. 조작이 불확실한 경우 <strong>반드시 「계산 및 정산」 페이지를 먼저 확인할 것</strong></td>
+            </tr>
+            <tr>
+              <th data-lang="zh-tw">免稅注意</th>
+              <th data-lang="zh-cn">免税注意</th>
+              <th data-lang="ja">免税について</th>
+              <th data-lang="ko">면세 주의</th>
+              <td data-lang="zh-tw">免稅門檻以<strong>折扣後金額</strong>計算，折扣後須達 <strong>¥5,500 以上</strong>才符合免稅資格</td>
+              <td data-lang="zh-cn">免税门槛以<strong>折扣后金额</strong>计算，折扣后须达 <strong>¥5,500 以上</strong>才符合免税资格</td>
+              <td data-lang="ja">免税は<strong>割引後の金額</strong>で判定します。割引後に<strong>¥5,500以上</strong>でなければ免税対象外となります</td>
+              <td data-lang="ko">면세 기준은 <strong>할인 후 금액</strong>으로 판정합니다. 할인 후 <strong>¥5,500 이상</strong>이어야 면세 대상이 됩니다</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="background:var(--red-light);border-left:3px solid var(--red);padding:10px 14px;font-size:13px;margin-bottom:8px">
+        <p style="font-weight:700;margin-bottom:6px;color:var(--red)">
+          <span data-lang="zh-tw">⚠️ 重要注意事項</span>
+          <span data-lang="zh-cn">⚠️ 重要注意事项</span>
+          <span data-lang="ja">⚠️ 重要事項</span>
+          <span data-lang="ko">⚠️ 가장 중요한 주의 사항</span>
+        </p>
+        <p data-lang="zh-tw">客人使用 iwafu 優惠券時，<strong>必須立即告知店長</strong>。</p>
+        <p data-lang="zh-cn">客人使用 iwafu 优惠券时，<strong>必须立即告知店长</strong>。</p>
+        <p data-lang="ja">お客様が iwafu クーポンを使用された際は、<strong>必ず即座に店長へ報告すること</strong>。</p>
+        <p data-lang="ko">고객이 iwafu 쿠폰을 사용할 때, <strong>반드시 즉시 점장에게 알릴 것</strong>. </p>
+      </div>
+    </div>
 <!-- 決算特賣 -->
     
 <div style="background:var(--card-bg);border:2px solid var(--red);border-left:6px solid var(--red);padding:20px;margin-bottom:20px">
   <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
     <span style="background:var(--red);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;letter-spacing:1px">🔥 最優先</span>
     <h3 style="margin:0;font-size:16px">
-      <span data-lang="zh-tw">🏷️ 三樓決算特賣會（5/1–5/31）</span>
-      <span data-lang="zh-cn">🏷️ 三楼决算特卖会（5/1–5/31）</span>
-      <span data-lang="ja">🏷️ 3階決算セール（5/1–5/31）</span>
-      <span data-lang="ko">🏷️ 3층 결산 세일 (5/1–5/31)</span>
+      <span data-lang="zh-tw">🏷️ 三樓決算特賣會（6月～）</span>
+      <span data-lang="zh-cn">🏷️ 三楼决算特卖会（6月～）</span>
+      <span data-lang="ja">🏷️ 3階決算セール（6月～）</span>
+      <span data-lang="ko">🏷️ 3층 결산 세일 (6月～)</span>
     </h3>
   </div>
 
@@ -409,16 +470,7 @@ if(sessionStorage.getItem('auth')==='1'){
           <td data-lang="ja">3階商品のセール。多くの商品は<strong>システム上で価格変更済み</strong>のため通常通りスキャンでOK。<br>⚠️ 一部商品は<strong>システム割引未対応</strong>（例：ウルトラマン アクリルスタンドは手動で<strong>単品割引 −90%</strong>、販売価格 ¥182）。1階レジスタッフは要注意、<strong>必ず単品割引を使用</strong>すること。</td>
           <td data-lang="ko">3층 상품 세일. 대부분 상품은 <strong>시스템에서 가격 변경 완료</strong>, 정상 스캔으로 계산 가능.<br>⚠️ 일부 상품은 <strong>시스템 할인 미적용</strong> (예：울트라맨 아크릴 스탠드는 수동 <strong>단품 할인 −90%</strong>, 판매가 ¥182). 1층 계산 직원 주의, <strong>반드시 단품 할인 사용</strong>.</td>
         </tr>
-        <tr>
-          <th data-lang="zh-tw">滿額贈品</th>
-          <th data-lang="zh-cn">满额赠品</th>
-          <th data-lang="ja">特典</th>
-          <th data-lang="ko">사은품</th>
-          <td data-lang="zh-tw">三樓消費<strong>滿萬元</strong>贈品如下：<br>・【開運】【BANANA】→ 地上擺放<strong>袋子中的小禮物</strong><br>・【HERO】→ ¥80 <strong>布魯可小盲盒</strong></td>
-          <td data-lang="zh-cn">三楼消费<strong>满万元</strong>赠品如下：<br>・【開運】【BANANA】→ 地上摆放<strong>袋子中的小礼物</strong><br>・【HERO】→ ¥80 <strong>布鲁可小盲盒</strong></td>
-          <td data-lang="ja">3階での<strong>¥10,000以上</strong>ご購入の特典：<br>・【開運】【BANANA】→ 床に置いた<strong>袋の中の小ギフト</strong><br>・【HERO】→ ¥80 <strong>ブルコのミニブラインドボックス</strong></td>
-          <td data-lang="ko">3층 <strong>¥10,000 이상</strong> 구매 시 사은품：<br>・【開運】【BANANA】→ 바닥에 놓인 <strong>봉투 속 소선물</strong><br>・【HERO】→ ¥80 <strong>브루코 미니 블라인드 박스</strong></td>
-        </tr>
+
       </tbody>
     </table>
   </div>
